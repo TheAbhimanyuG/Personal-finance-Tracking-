@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rich Navy Blue Gradient Background Container (matches the uploaded round-rect) -->
+    <path
+        android:pathData="M 6,6 L 102,6 A 12,12 0 0 1 102,102 L 6,102 A 12,12 0 0 1 6,6 Z"
+        android:fillColor="#0B1C3F" />
+
+    <!-- Soft outer glow for the shield -->
+    <path
+        android:pathData="M24 16 L84 16 C84 16, 86 58, 54 90 C22 58, 24 16, 24 16 Z"
+        android:fillColor="#151E3A5F" />
+
+    <!-- Outer Shield Frame (Polished Silver/White Metallic gradient) -->
+    <path
+        android:pathData="M24 16 L84 16 C84 16, 86 58, 54 90 C22 58, 24 16, 24 16 Z"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#0D1F49">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="16"
+                android:endX="84"
+                android:endY="90"
+                android:type="linear">
+                <item android:color="#FFE2EBF6" android:offset="0.0" />
+                <item android:color="#FFB3CDE9" android:offset="0.5" />
+                <item android:color="#FF7FA5CC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Silver Highlight line for 3D bevel look -->
+    <path
+        android:pathData="M28 20 L80 20 C80 20, 81.5 55, 54 84 C26.5 55, 28 20, 28 20 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Stylized 'K' - Left Vertical Column (Metallic Silver-White ribbon) -->
+    <path
+        android:pathData="M 37,28 L 37,74"
+        android:strokeWidth="6"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="37"
+                android:startY="28"
+                android:endX="37"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFEAF0F6" android:offset="0.3" />
+                <item android:color="#FFC0D3E5" android:offset="0.8" />
+                <item android:color="#FF8EB2D6" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Upper arm of K, wrapping to the right screen corner -->
+    <path
+        android:pathData="M 38,48 L 68,26"
+        android:strokeWidth="5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="38"
+                android:startY="48"
+                android:endX="68"
+                android:endY="26"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFC3D6E7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sweeping Lower curved arm of K -->
+    <path
+        android:pathData="M 38,48 C 50,56 61,72 73,63"
+        android:strokeWidth="5.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="38"
+                android:startY="48"
+                android:endX="73"
+                android:endY="63"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFEBF2FA" android:offset="0.4" />
+                <item android:color="#FFA2C3E2" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Energetic Upward Kinetic Growth Arrow (Vivid Green Gradient) -->
+    <!-- It swoops elegantly from the left-hand stem, loops through the center and shoots up-right -->
+    <path
+        android:pathData="M 29,66 C 31,52 46,40 56,38 L 78,20"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="29"
+                android:startY="66"
+                android:endX="78"
+                android:endY="20"
+                android:type="linear">
+                <item android:color="#FFBEF264" android:offset="0.0" />
+                <item android:color="#FF84CC16" android:offset="0.5" />
+                <item android:color="#FF22C55E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Arrow head pointing up-right at x=78, y=20 -->
+    <path
+        android:pathData="M 68,20 L 78,20 L 78,30 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#FFBEF264"
+        android:strokeLineJoin="round"
+        android:fillColor="#FF84CC16" />
+
+    <!-- High-tech circuit loop or shine line inside the shield -->
+    <path
+        android:pathData="M 46,74 Q 54,80 62,74"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

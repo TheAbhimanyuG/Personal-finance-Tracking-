@@ -1,0 +1,6 @@
+{
+  "name": "Kinetic Trust",
+  "description": "Premium Finance & Wealth Management app featuring a planning dashboard, secure transaction tracking, asset tracking, income audit reports, custom categories, and investment calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

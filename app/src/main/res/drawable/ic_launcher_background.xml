@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item
+                    android:color="#040C1A"
+                    android:offset="0.0" />
+                <item
+                    android:color="#0F2447"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Elegant simulated thin dual-line border representing professional stitching lines -->
+    <path
+        android:strokeColor="#1F3E70"
+        android:strokeWidth="0.5"
+        android:pathData="M4,4 h100 v100 h-100 z" />
+    <path
+        android:strokeColor="#0B1321"
+        android:strokeWidth="0.5"
+        android:pathData="M5,5 h98 v98 h-98 z" />
+</vector>
